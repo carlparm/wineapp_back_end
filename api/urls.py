@@ -1,7 +1,7 @@
 
 from django.urls import path
-from .views import Index
+from .views import wine_list
 
 urlpatterns = [
-    path('', Index)
+    path('wines', wine_list),
 ]
